@@ -2,11 +2,14 @@
 
 using namespace std;
 
-int main(){
-	cout<<"hello world!\n";
+void Log(const char* str)
+{
+	cout<<str<<endl;
+}
 
-	cout<<"hello world!\n";
+int main(){
+	Log("Hello World!");
 	
  	return 0;
-	}
+}
 
