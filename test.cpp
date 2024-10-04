@@ -9,6 +9,7 @@ void Log(const char* str)
 
 int main(){
 	Log("Hello World!");
+	Log("Master Test");
 	
  	return 0;
 }
